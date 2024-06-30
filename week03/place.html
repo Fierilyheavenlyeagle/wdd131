@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 Country Page - Alvaro Cerpa</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <meta name="author" content="Alvaro C. Baron" />
+    <meta name="description" content="WDD 131 Country Page Alvaro Cerpa Barón My Profile and my homeland"/>
+    <script src="scripts/place.js" defer></script>
+  </head>
+<body>
+  <header>
+    <h1>
+      PERU
+    </h1> 
+  </header>
+  <main>
+    <div class="hero">
+      <picture>
+        <source srcset="images/kingfisher-large.webp" media="(min-width: 1000px)">
+        <source srcset="images/kingfisher-medium.webp" media="(min-width: 500px)">
+        <img src="images/kingfisher-small.webp" alt="Tew kingfisher birds" width="500" height="250">
+      </picture>
+    </div>
+      <div class="data">
+      <h2>Data</h2>
+      <p>Area: 1,285 M km²</p>
+      <p>Population: 34,05 M </p>
+      <p>Capital: Lima</p>
+      <p>Languages: Spanish</p>
+      <p>Currency: Sol</p>
+      <p>TimeZ Zone: GMT-5</p>
+      <p>Calling Code: +51</p>
+      <p>Internet TLD: .pe</p>
+    </div>
+    <div class="weather">
+      <h2>Weather</h2>
+      <p>Temperature: 
+        <span id="tem">10 </span> C°
+      </p>
+      <p>
+        Conditions: Partly Cloudy
+      </p>
+      <p>
+        Wind: 
+        <span id="wind">13 </span> km/h
+      </p>
+      <p>
+        Wind Chill:
+        <span id="chill"></span> C°
+      </p>
+    </div>
+  </main>
+  <footer>
+    <p class="footer-p">
+      @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+    </p>
+    <p class="modification">
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+</body>
+
+</html>
