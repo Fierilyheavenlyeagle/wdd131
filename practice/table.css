@@ -1,0 +1,35 @@
+th, td {
+	padding: 7px 15px;
+	
+}
+
+table {
+  margin: 10px auto;
+  border: thin solid var(--border);
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.black {
+  background-color: black;
+}
+
+.acme {
+  background-color: black;
+  color: white;
+}
+
+.gray {
+  background-color: gray;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff;
+}

@@ -1,0 +1,33 @@
+@media only screen and (min-width:40rem) {
+
+  .navigation 
+  {
+    flex-direction: row;
+    width: 40rem;
+    height: 35px;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background-color: transparent;
+  }
+  .navigation a
+  {
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  #menu
+  {
+    display: none;
+  }
+
+  .gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    place-items: center;
+    text-align: center;
+  }
+
+  
+}
