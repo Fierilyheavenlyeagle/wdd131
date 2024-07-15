@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Products review">
+  <meta name="author" content="Alvaro Cerpa">
+  <title>The Products Review</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="css/reviewsmall.css" rel="stylesheet">
+  <link href="css/reviewlarge.css" rel="stylesheet">
+  <script src="scripts/review.js"></script>
+</head> 
+<body>
+  <header>
+    <h1>Product Review</h1>
+  </header>
+  <main>
+    <form method="get" action="form1.html" class="wf2" class="reviewForm">
+      <fieldset>
+        <label>Product Name 
+          <select name="Subject" id="product">
+          </select>
+        </label>
+      </fieldset>
+      <div class="overall">Overall Rating</div>
+      <fieldset class="star-container">
+        <div class="star">
+        <input type="radio" name="rating" value="1"><label>☆</label>
+        </div>
+        <div class="star">
+        <input type="radio" name="rating" value="2"><label>☆☆ </label>
+        </div>
+        <div class="star">
+        <input type="radio" name="rating" value="3"><label>☆☆☆ </label>
+        </div>
+        <div class="star">
+        <input type="radio" name="rating" value="4"><label>☆☆☆☆ </label>
+        </div>
+        <div class="star">
+        <input type="radio" name="rating" value="5"><label>☆☆☆☆☆ </label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label>Date of Installation <input type="date" name="installationDay"></label>
+      </fieldset>
+      <fieldset>
+        <div>Which features did you find useful in the product?</div>
+        <div>(Check all that apply)</div>
+        <label></label><input type="checkbox" name="durability" value="yes"> Durability</label>
+        <label><input type="checkbox" name="easiness" value="yes"> Ease of Use</label>
+        <label><input type="checkbox" name="performance" value="yes"> Performance</label>
+        <label><input type="checkbox" name="design" value="yes"> Design</label>
+      </fieldset>
+      <fieldset>
+        <label>Written Review <span>(Optional)</span><input type="text" name="review" class="review"></label>
+      </fieldset>
+      <fieldset>
+        <label>Your Name <span>(Optional)</span><input type="text" name="fname" class="name"></label>
+      </fieldset>
+      <input type="submit" value="Post Review" class="submit">
+    </form>
+  </main>
+  <p>Number of reviews: <span id="reviewsNumber">0</span></p>
+  <footer>
+    <p class="footer-p">
+      @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+    </p>
+    <p class="modification">
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+header
+{
+  text-align: center;
+  background-color: #2f022c;
+  padding: .05rem;
+  font-family: sans-serif;
+  color: white;
+}
+
+form
+{
+  background-color: #d4cdd5;
+  margin: 1rem 0 1rem 0;
+}
+
+.star-container
+{
+  display: flex;
+  gap: 20px;
+  padding: 0 0 0 4rem ;
+  
+}
+
+.star
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 .7rem 0;
+}
+
+.wf2 input[type="date"]
+{
+  padding: .60rem;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 375px;
+}
+select
+{
+  padding: .60rem;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.review
+{
+  padding: 3rem;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.name
+{
+  padding: .60rem;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 380px;
+}
+
+.wf2 input[type="date"],
+.wf2 input[type="text"],
+select
+{
+  display: block;
+  margin-top: 7px;
+  border: 1px solid #999;
+  
+}
+
+.wf2 input[type="checkbox"]
+{
+  margin-top: 6px;
+}
+
+span 
+{
+  color: #078bdd;
+  font-size: 13px;
+}
+
+.wf2 label
+{
+  display: block;
+}
+
+.overall
+{
+  padding: 0 0 .5rem 1rem;
+}
+
+fieldset
+{
+  border: none;
+  font-size: 15px;
+}
+
+.wf2 input[type="submit"]
+{
+  padding:.60rem;
+  border-radius: 6px;
+  width: 95%;
+  max-width: 400px;
+  margin: .6rem 2% 1rem 3%;
+  font-weight: bold;
+}
+
+footer
+  {
+  background-color: #2f022c;
+  padding: 2px;
+  }
+  
+.footer-p{
+  color: white;
+  text-align: center;
+  margin: 10px
+  }
+
+.modification{
+  color: #2f022c;
+  text-align: center;
+  margin: 10px;
+  }
+
+.year1
+{
+  color: white;
+}
+
+.mod1
+{
+  color: white;
+}
