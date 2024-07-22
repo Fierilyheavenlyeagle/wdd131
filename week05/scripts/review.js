@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       id: "fc-2050",
-      name: "power laces",
+      name: "power laces",-
       averagerating: 4.7
     },
     {

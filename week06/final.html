@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The book shelf service"/>
+  <meta name="author" content="Alvaro Cerpa"/>
+  <title>The e-bookshelf</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="style/finalsmall.css" rel="stylesheet">
+  <link href="style/finalbig.css" rel="stylesheet">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+  <script src="script/final.js"></script>
+</head>
+<body>
+<header>
+  Library
+</header>
+<nav>
+  <a href="final.html" id="Home">Home</a>
+  <a href="recommended.html" id="Recommended Books">Recommended Books</a>
+  <a href="12-rock-paper-scissors.html" id="Game">Game</a>
+</nav>
+<body>
+  <form method="get" class="wbs">
+    <h1>Ponder Form</h1>
+    <fieldset>
+      <legend>Book Data</legend>
+      <label>Book Name* <input type="name" name="fname" id="bname" class="bookname" required></label>
+      <label>Chapter* <input class="chapter" type="number" name="chapter" id="chapter"  required></label>
+      <label>Page* <input type="number" name="page" id="page" required></label>
+      <label>UserName* <input type="user" name="UserName" id="user" class="user" required></label>
+    </fieldset>
+    <fieldset>
+      <legend>Ponderings</legend>
+      <label>Title <input type="text" name="title" id="title"></label>
+      <label>Notes* <input type="note" name="note" id="notes" class="notes" required></label>
+
+    </fieldset>
+    <input type="submit" value="Post Pondering" id="submit" class="submit">
+  </form>
+  <main>
+    <div class="cards">
+    </div>
+  </main>
+  <footer>
+    <p class="footer-p">
+      @ <span id="year"></span> - ☆ Alvaro Cerpa Baron ☆ Lima-Peru
+    </p>
+    <p class="modification">
+      <span id="lastModified"></span>
+    </p>
+  </footer>
+</body>
+</body>
+</html>

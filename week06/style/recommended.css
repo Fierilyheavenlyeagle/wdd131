@@ -1,0 +1,158 @@
+header
+{
+  font-size: 40px;
+  background-color: #3bf1d0;
+  color: #0B0554;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+html
+{
+  background-color: #0856a0;
+}
+
+body
+{
+  font-family: Arial;
+  background-color: #ddf2fa;
+}
+h1{
+  text-align: left;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: #251505;
+  display: absolute;
+  margin-left: 1rem;
+  background-color: #D1988E;
+  }
+  
+  .label
+  {
+    color: rgb(74, 74, 180);
+  }
+
+  section{
+    background-color: #eeeeee;
+    padding: 1rem;
+    border: black;
+    border-radius: 4px;
+  }
+
+  h2
+  {
+    background-color: #a8c7d3;
+    color: black;
+  }
+  
+  .gallery{
+    display: grid; 
+    grid-template-columns: auto ;
+    grid-gap: 20px;
+    place-items: center;
+    text-align: center;
+  }
+
+  img{
+    width: 120px;
+  }
+
+  .main
+  {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 10px
+    ;
+  }
+
+  .main a 
+  {
+    text-align: center;
+    background-color: #79b6ec;
+    padding: 10px;
+    color: rgb(9, 20, 82);
+    text-decoration: none;
+    display: block;
+    flex: 1 1 100%;
+  }
+
+  .main a:hover {
+    background-color: #1d54eb5e;
+  }
+
+  
+  footer
+  {
+  margin-top: 10px;
+  background-color: #3bf1d0;
+  padding: 2px;
+  font-size: 15px;
+  }
+  
+  .footer-p{
+    color: #0B0554;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+  }
+  
+  .modification{
+    color: #251505;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    background-color: #AEC4DC;
+    color: #112A46;
+  }
+  
+  .navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #112A46;
+    border: 1px solid rgb(241, 241, 241);
+  }
+  
+  .navigation a:hover {
+    background-color: antiquewhite;
+    color: rgb(92, 70, 43);
+    font-weight: 700;
+  }
+
+  #menu{
+  font-size: 1.5rem;
+  border: 0;
+  background:none;
+  color: #000;
+  position:absolute;
+  top: 1rem;
+  right: 1rem;
+  }
+  
+  #menu::before{
+    content:"☰";
+  }
+  
+  #menu.open::before{
+    content: "❎";
+  }
+  
+  .open
+  {
+    margin-bottom: 10px;
+  }
+  
+  .open a{
+    display: block;
+  }

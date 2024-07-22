@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {const input = document.querySelector('#favchap');
+document.addEventListener('DOMContentLoaded', function() {
+  const input = document.querySelector('#favchap');
   const button = document.querySelector('#submit');
   const list = document.querySelector('#list');
   // Comment: The following three lines are creating and appending elements unnecessarily

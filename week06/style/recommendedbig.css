@@ -1,0 +1,52 @@
+@media only screen and (min-width:40rem) {
+
+
+  .navigation {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+  }
+
+  .navigation a
+  {
+    display: block;
+    flex: 1 1 100%;
+    border: none;
+  }
+
+  .main
+  {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+
+  .main a
+  {
+    display: block;
+    flex: 1 1 100%;
+    border: none;
+    
+  }
+
+  #menu
+  {
+    display: none;
+  }
+
+  .gallery{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    place-items: center;
+    text-align: center;
+  }
+
+  section{
+    background-color: #eeeeee;
+    padding: 1rem;
+    border: thin solid black;
+    border-radius: 4px;
+  }
+  
+}

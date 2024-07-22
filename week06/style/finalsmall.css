@@ -1,0 +1,257 @@
+header
+{
+  font-size: 40px;
+  background-color: #3bf1d0;
+  color: #0B0554;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+body
+{
+  font-family: Arial;
+  background-color: #e0f1fb;
+}
+
+nav
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav a 
+{
+  text-align: center;
+  background-color: rgb(121, 182, 236);
+  padding: 10px;
+  color: rgb(9, 20, 82);
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #1d54eb5e;
+}
+
+.bookName,
+.chapter,
+.user
+{
+  border-right: solid 2px red;
+}
+
+h1
+{
+  font-size: 20px;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: 490;
+}
+
+form
+{
+  background-color: rgb(209, 226, 241);;
+  border: 2px solid rgb(241, 241, 241);
+  margin: 10px 0 10px 0;
+  border-radius: 4px;
+}
+
+.wbf label
+{
+  display: block;
+  font-size: 14px;
+  margin: 10px 0 10px 0
+  
+}
+
+fieldset
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  border-radius: 4px;
+  border-color: #ffffff;
+}
+
+legend
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  
+};
+.wbf label
+{
+  display: block;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.notes
+{
+  padding: 2rem;
+  display: block;
+  border-radius: 4px;
+  border: thin solid rgb(255, 255, 255);
+  box-shadow: rgb(180, 16, 16);
+  width: 100%;
+  max-width: 330px;
+  margin: 3px 0 0 0;
+  border-right: solid 2px red;
+}
+
+.wbs input[type="text"]
+{
+  display: block;
+  padding: .65rem;
+  border-radius: 4px;
+  border: thin solid rgb(255, 255, 255);
+  box-shadow: rgb(180, 16, 16);
+  width: 100%;
+  max-width: 370px;
+  margin: 3px 0 0 0;
+}
+
+.wbs input[type="name"]
+{
+  display: block;
+  padding: .65rem;
+  border-radius: 4px;
+  border: thin solid rgb(255, 255, 255);
+  box-shadow: rgb(180, 16, 16);
+  width: 100%;
+  max-width: 370px;
+  margin: 3px 0 0 0;
+  border-right: solid 2px red;
+}
+
+.wbs input[type="number"]
+{
+  display: block;
+  padding: .65rem;
+  border-radius: 4px;
+  border: thin solid rgb(255, 255, 255);
+  box-shadow: rgb(180, 16, 16);
+  width: 100%;
+  max-width: 370px;
+  margin: 3px 0 0 0;
+}
+
+
+.wbs input.chapter[type="number"] {
+  border-right: solid 2px red;
+}
+
+.wbs input[type="user"]
+{
+  display: block;
+  padding: .65rem;
+  border-radius: 4px;
+  border: thin solid rgb(255, 255, 255);
+  box-shadow: rgb(180, 16, 16);
+  width: 100%;
+  max-width: 370px;
+  margin: 3px 0 0 0;
+  border-right: solid 2px red;;
+}
+
+
+.submit
+{
+  background-image: linear-gradient(rgb(211, 156, 38),rgb(235, 214, 122));
+  border-radius: 4px;
+  border: none;
+  width: 96%;
+  padding: .60rem;
+  margin: 0 2% 0 2%;
+}
+
+main
+{
+  background: rgb(121, 182, 236);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.cards
+{
+width: 900px;
+height: 400px;
+background-color: rgb(8, 86, 160);
+margin-top: 50px;
+display: grid;
+grid-template-columns: 100% ;
+gap: 20px;
+color: white
+
+}
+
+.box {
+  padding: 16px;
+  border: 1px solid #ccc;
+  width: 89%;
+  height: 88%;
+  max-width: 300px;
+  overflow-wrap: break-word;
+  margin: 0 0 0 11%;
+}
+
+.label {
+  font-weight: bold;
+  color: #01050e;
+}
+
+h3
+{
+  font-weight: 380;
+}
+
+h2
+{
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 380;
+  font-size: 1.2em;
+}
+
+h4
+{
+  font-weight:250;
+}
+
+p
+{
+  text-align: right;
+}
+
+html
+{
+  background-color: #0856a0;
+}
+
+footer
+{
+margin-top: 10px;
+background-color: #3bf1d0;
+padding: 2px;
+}
+
+.footer-p{
+  color: #0B0554;
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+
+.modification{
+  color: #251505;
+  text-align: center;
+  margin: 10px;
+  font-size: 15px;
+}
+

@@ -1,0 +1,117 @@
+body {
+  background-color: #ddf2fa;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+}
+
+main
+{
+  margin-bottom: 30px;
+}
+
+html
+{
+  background-color: #0856a0;
+}
+
+header
+{
+  font-size: 40px;
+  background-color: #3bf1d0;
+  color: #0B0554;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Playwrite MX", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+footer
+  {
+  background-color: #3bf1d0;
+  padding: 2px;
+  }
+  
+  .footer-p{
+    color: #0B0554;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+  
+  }
+  
+  .modification{
+    color: #251505;
+    text-align: center;
+    margin: 10px;
+    font-size: 15px;
+  }
+
+
+nav
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav a 
+{
+  text-align: center;
+  background-color: rgb(121, 182, 236);
+  padding: 10px;
+  color: rgb(9, 20, 82);
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #1d54eb5e;
+}
+
+.title {
+  font-size:30px;
+  font-weight:bold;
+
+}
+
+.move-icon  {
+  height: 50px;
+}
+
+.move-button {
+  background-color: transparent;
+  border: 3px solid #6a6f74;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+
+}
+
+p
+{
+  margin-left: 10px;
+}
+
+.result{
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.score{
+  margin-top: 60px;
+}
+
+.reset-score-button, 
+.auto-play-button {
+  background-color: white;
+  border: thin solid #6a6f74;
+  border-radius: 4px;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+  margin-left: 10px;
+}
