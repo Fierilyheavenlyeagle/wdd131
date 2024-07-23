@@ -1,0 +1,123 @@
+Site Name: JAS eLibray Club
+The site offers young adults a dynamic platform to take notes through forms, access a diverse list of books to read, and enjoy a game to unwind and relax after extensive studying.
+
+How can I find more books to read?
+Where can I post my last reflections about the last chapter of my favorite book?
+
+Color Schema:
+
+Body: #e0f1fb
+Html background: #0856a0
+Header and footer: #3bf1d0
+Nav: #AEC4DC
+Cards: #eeeeee
+
+Typography:
+
+Header: "Playwrite MX", cursive
+Body: 'Segoe UI', Tahoma, Geneva, Verdana
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Wireframe</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .box {
+      border: 1px solid #000;
+      padding: 10px;
+      margin: 10px 0;
+      text-align: left;
+    }
+    .header {
+      height: 50px;
+      border: 5px solid #3bf1d0;
+      font-family: "Playwrite MX", cursive;;
+      text-align: center;
+    }
+    .nav {
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      border: 5px solid #AEC4DC
+      
+    }
+    .form {
+      padding: 20px;
+      border: 5px solid #e0f1fb
+    }
+    .fieldset {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #000;
+    }
+    .main {
+      height: 200px;
+    }
+    .footer {
+      height: 50px;
+      text-align: center;
+      border: 5px solid #3bf1d0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="box header">
+    <h2>Header</h2>
+  </div>
+
+  <!-- Navigation -->
+  <div class="box nav">
+    <div>Home</div>
+    <div>Recommended Books</div>
+    <div>Game</div>
+  </div>
+
+  <!-- Form -->
+  <div class="box form">
+    <h2>Ponder Form</h2>
+    <div class="fieldset">
+      <legend>Book Data</legend>
+      <div>Book Name*</div>
+      <div>Chapter*</div>
+      <div>Page</div>
+      <div>UserName*</div>
+    </div>
+    <div class="fieldset">
+      <legend>Ponderings</legend>
+      <div>Title</div>
+      <div>Notes*</div>
+    </div>
+    <div>Post Pondering</div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="box main">
+    <h2>Main Content (Cards)</h2>
+  </div>
+
+  <!-- Footer -->
+  <div class="box footer">
+    <p>@ 2023 - ☆ Alvaro Cerpa Baron ☆ Lima-Peru</p>
+    
+  </div>
+
+</div>
+
+</body>
+</html>
