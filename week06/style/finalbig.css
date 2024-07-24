@@ -37,6 +37,13 @@ nav a
   max-width: 1145px
 }
 
+main
+{
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+
 .cards
 {
 width: 900px;
@@ -44,10 +51,45 @@ height: 400px;
 background-color: rgb(8, 86, 160);
 margin-top: 50px;
 display: grid;
-grid-template-columns: 31% 31% 31% ;
+grid-template-columns: 30% 30% 30% ;
 gap: 20px;
-color: white
+color: white;
+margin-left: 0px;
 }
+
+.box
+{
+  margin-top: 6px;
+}
+
+footer
+{
+display:none;
+}
+
+button
+{
+  position: absolute;
+  margin-left: 210px;
+  width: 100%;
+  max-width: 38px;
+  align-items: center;
+}
+
+fieldset
+{
+  margin-left: 16px;
+  margin-bottom: 10px;
+  border: transparent;
+}
+
+h1
+{
+  margin-left: 16px;
+}
+
+
+
 
 
 }

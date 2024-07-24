@@ -59,14 +59,6 @@ form
   border-radius: 4px;
 }
 
-.wbf label
-{
-  display: block;
-  font-size: 14px;
-  margin: 10px 0 10px 0
-  
-}
-
 fieldset
 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -79,13 +71,16 @@ legend
 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
-  
+  margin-bottom: 5px
 };
 .wbf label
 {
   display: block;
   font-size: 14px;
+  margin: 10px 0 10px 0;
+  font-size: 14px;
   margin-top: 50px;
+  
 }
 
 .notes
@@ -173,7 +168,6 @@ main
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   align-items: center;
   justify-content: center;
-  display: flex;
 }
 
 .cards
@@ -185,8 +179,7 @@ margin-top: 50px;
 display: grid;
 grid-template-columns: 100% ;
 gap: 20px;
-color: white
-
+color: white;
 }
 
 .box {
@@ -196,12 +189,14 @@ color: white
   height: 88%;
   max-width: 300px;
   overflow-wrap: break-word;
-  margin: 0 0 0 11%;
+  margin: 0 0 0 6%;
+  margin-top: 50px;
 }
 
 .label {
   font-weight: bold;
   color: #01050e;
+  margin-top: 10px;
 }
 
 h3
@@ -239,6 +234,7 @@ footer
 margin-top: 10px;
 background-color: #3bf1d0;
 padding: 2px;
+display: none;
 }
 
 .footer-p{
@@ -253,5 +249,27 @@ padding: 2px;
   text-align: center;
   margin: 10px;
   font-size: 15px;
+}
+
+button
+{
+  position: absolute;
+  margin-left: 235px;
+  width: 100%;
+  max-width: 38px;
+  align-items: center;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+fieldset
+{
+  margin-bottom: 10px;
+  border: transparent;
+}
+
+h1
+{
+  margin-left: 9px;
 }
 

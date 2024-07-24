@@ -76,3 +76,14 @@
 
 </body>
 </html>
+
+
+function getCardList() {
+  return JSON.parse(localStorage.getItem("cardList"));
+}
+
+let cardArray = getCardList() || [];
+
+cardArray.forEach(({ bookName, chapter, page, title, notes, user }) => {
+  createCards(bookName, chapter, page, title, notes, user);
+});
