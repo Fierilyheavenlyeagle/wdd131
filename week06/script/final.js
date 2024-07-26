@@ -62,16 +62,16 @@ cardArray.forEach(({bookName, chapter, page, title, notes, user}) => {createCard
 
   function deleteCard(item)
   {
-    cardArray = cardArray.filter(card => card.booKName !== item.booKName & card.chapter !== item.booKName & card.page !== item.page & card.title !== item.title & card.notes !== item.notes & card.user !== item.user)
+    cardArray = cardArray.filter(card => card.bookName !== item.bookName || card.chapter !== item.chapter || card.page !== item.page || card.title !== item.title || card.notes !== item.notes || card.user !== item.user);
     setCardList();
   }
 
-  function createCards(booKName, chapter, page, title, notes, user)
+  function createCards(bookName, chapter, page, title, notes, user)
   {
 
     let card = document.createElement('div');
     card.className= 'box';
-    let booKNameElement = document.createElement('h2');
+    let bookNameElement = document.createElement('h2');
     let chapterElement = document.createElement('h3');
     let pageElement = document.createElement('h3');
     let titleElement = document.createElement('h3');
@@ -82,7 +82,7 @@ cardArray.forEach(({bookName, chapter, page, title, notes, user}) => {createCard
 
 
 
-    booKNameElement.textContent = booKName;
+    bookNameElement.textContent = bookName;
 
     deleteButton.textContent = '❎';
     deleteButton.classList.add('delete');
@@ -95,7 +95,7 @@ cardArray.forEach(({bookName, chapter, page, title, notes, user}) => {createCard
     userElement.textContent = `by ${user}`;
 
 
-    card.appendChild(booKNameElement);
+    card.appendChild(bookNameElement);
     card.appendChild(chapterElement);
     card.appendChild(pageElement);
     card.appendChild(titleElement);
@@ -107,7 +107,7 @@ cardArray.forEach(({bookName, chapter, page, title, notes, user}) => {createCard
     deleteButton.addEventListener('click', function()
   {
     cards.removeChild(card);
-    deleteCard(card.textContent);
+    deleteCard({bookName: bookName, chapter: chapter, page: page, title: title, notes: notes, user:user});
   })
   }
 });

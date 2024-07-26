@@ -150,3 +150,5 @@ function pickComputerMove() {
 }
 return computerMove;
 }
+
+document.getClass
